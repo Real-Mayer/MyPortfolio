@@ -69,6 +69,12 @@ body textarea:required:valid {
 :-moz-placeholder      {color: black; opacity: 1;} 
 :-ms-input-placeholder {color: black; opacity: 1;}
 
+::selection {
+background: #ffb7b7;
+}
+::-moz-selection {
+background: #ffb7b7;
+}
 
 .hidden {
 	display: none;
@@ -911,7 +917,7 @@ canvas{
   background: #FFF;
   padding: 20px;
   width: auto;
-  max-width: 500px;
+  max-width: 1032px;
   margin: 20px auto;
 }
 

@@ -22,7 +22,6 @@ $('a[href^="#"]:not(.popup)').click(function(){
     });
 
 
-
 //NAVIGATION ACTIVE
 $(window).scroll(function() {
     var windscroll = $(window).scrollTop();
@@ -273,4 +272,5 @@ $(window).resize(function(){
 
 
 })( jQuery );
+
 
